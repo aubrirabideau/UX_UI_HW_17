@@ -9,27 +9,28 @@
     width: 15%;
     padding: 1%;
     background: black;
+    float: left;
 }
 .navigation{
     display: flex;
     justify-content: center;
     background: black;
-    /* width:73%; */
     padding:1%;
     height: 75px;
     
 }
 .heroImg{
     padding: 25px;
-    /* vertical-align: top; */
+    align-content: left;
 }
 .content{
     width: 500px;
     margin:0 auto;
+    float: left;
+    padding: 50px 300px;
 }
 .footer{
     background-color: black;
-    padding: 2px;
 }
 .body{
     background-color:teal;
@@ -41,5 +42,21 @@
 .row{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: rgb(215, 157, 11);
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-family:
+}
+@font-face {
+    font-family: eastwood_2;
+    src: url (eastwood_ttf);
+}
+* {
+    font-family: eastwood_2;
 }
