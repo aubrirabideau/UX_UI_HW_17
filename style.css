@@ -4,40 +4,42 @@
 .white-text{
     color:white;
     padding: 5px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .logo{
     width: 15%;
     padding: 1%;
     background: black;
-    float: left;
 }
 .navigation{
     display: flex;
-    justify-content: center;
     background: black;
     padding:1%;
     height: 75px;
-    
 }
 .heroImg{
     padding: 25px;
     align-content: left;
 }
-.content{
-    width: 500px;
-    margin:0 auto;
-    float: left;
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
     padding: 50px 300px;
+    grid-template-columns: 200px 50%;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .footer{
     background-color: black;
 }
-.body{
-    background-color:teal;
-}
 .main{
     display: flex;
     flex-direction:column;
+    border-style: solid black;
 }
 .row{
     display:flex;
@@ -51,12 +53,23 @@
     height: 40px;
     width: 150px;
     border-radius: 20px;
-    font-family:
+    justify-content: right; 
+
 }
-@font-face {
-    font-family: eastwood_2;
-    src: url (eastwood_ttf);
-}
-* {
-    font-family: eastwood_2;
-}
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .name {
+    border-style: solid black;
+    border-width: 20px;
+
+  }
+
+  
+
+
+
+
+
